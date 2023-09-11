@@ -1,0 +1,21 @@
+/*wildcard selector*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+header {
+    color: red
+}
+
+/*main content*/
+main {
+    color: blue
+}
+
+/*footer*/
+footer {
+    color: green
+}
