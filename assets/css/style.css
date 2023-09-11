@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+/*generic styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*generic project style*/
+    color: #3a3a3a;
+}
+
 /*header*/
 header {
     color: red
@@ -12,7 +21,8 @@ header {
 
 /*main content*/
 main {
-    color: blue
+    color: blue;
+    flex: 1 0 auto
 }
 
 /*footer*/
