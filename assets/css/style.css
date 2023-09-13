@@ -21,13 +21,26 @@ body {
 /*header*/
 header {
     background-color: #ffffff;
-    padding: 1rem;
+    padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
+/*nav toggle*/
+#nav-toggle:checked~nav{
+    display:block
+}
+#nav-toggle {
+    display:none;
+}
+.nav-toggle-label {
+    font-size:2rem;
+}
 header a {
     text-decoration: none;
     color: inherit;
@@ -40,7 +53,7 @@ header a {
 }
 
 #menu>li {
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 }
 
 .active {
@@ -52,7 +65,8 @@ nav {
     background: #ffffff;
     width: 100%;
     left: 0;
-    padding: 2em;
+    top: 100%;
+    padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
 }
