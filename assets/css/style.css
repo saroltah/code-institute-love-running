@@ -31,22 +31,16 @@ header {
     align-items: baseline;
 }
 
-/*nav toggle*/
-#nav-toggle:checked~nav {
-    display: block
-}
-
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    font-size: 2rem;
-}
-
 header a {
     text-decoration: none;
     color: inherit;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525
 }
 
 #menu {
@@ -74,11 +68,17 @@ nav {
     display: none;
 }
 
-h1 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525
+/*nav toggle*/
+#nav-toggle:checked~nav {
+    display: block
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /*main content*/
@@ -90,7 +90,9 @@ main {
 
 /*footer*/
 footer {
-    color: green
+    background-color: yellow;
+    height:200px;
+    color:black;
 }
 
 /*media query for tablets*/
