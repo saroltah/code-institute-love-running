@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-/*generic styles*/
+/*general styles*/
 body {
     min-height: 100vh;
     display: flex;
@@ -25,6 +25,10 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525
+}
+
+.hidden-heading {
+    display: none;
 }
 
 /*header*/
@@ -155,6 +159,27 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* meetup times*/
+#times {
+    background: url(../images/dublin-city.webp) no-repeat center center / cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid white;
+    text-align: center;
+    padding: 15px;
+}
+
+#times h3 {
+    color: #fafafa;
 }
 
 /*footer*/
