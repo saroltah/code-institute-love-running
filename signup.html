@@ -54,7 +54,84 @@
       </nav>
     </header>
     <!-- Main content-->
-    <main>Main content</main>
+    <main>
+      <section id="signup">
+        <form
+          id="signup-form"
+          method="POST"
+          action="https://formdump.codeinstitute.net"
+        >
+          <h2>
+            <i class="fa-solid fa-heart-pulse"></i>
+            Let's get you signed up
+          </h2>
+          <label for="first_name">First Name</label>
+          <input
+            type="text"
+            name="first_name"
+            id="first_name"
+            required
+            class="text-input"
+          />
+          <br />
+          <label for="last_name">Last Name</label>
+          <input
+            type="text"
+            name="last_name"
+            id="last_name"
+            required
+            class="text-input"
+          />
+          <br />
+          <label for="email_address">Email Address</label>
+          <input
+            type="text"
+            name="email_address"
+            id="email_address"
+            required
+            class="text-input"
+          />
+          <br />
+          <div class="rado-buttons">
+            <div>
+              <input
+                type="radio"
+                name="running_preference"
+                id="running_preferences"
+                value="road"
+                id="road"
+                checked
+                required
+              />
+              <label for="road">Road</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="running_preference"
+                id="running_preferences"
+                value="trail"
+                id="trail"
+                required
+              />
+              <label for="trail">Trail</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="running_preference"
+                id="running_preferences"
+                value="both"
+                id="both"
+                required
+              />
+              <label for="both">Both</label>
+            </div>
+          </div>
+          <input type="submit" value="Let's Run" />
+        </form>
+      </section>
+    </main>
     <!-- Footer-->
     <footer>
       <ul id="social-network">
