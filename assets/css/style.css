@@ -91,6 +91,8 @@ nav {
 main {
     flex: 1 0 auto;
     margin-top: 47px;
+    display: flex;
+    flex-direction: column;
 }
 
 /*hero*/
@@ -192,6 +194,25 @@ main {
     line-height: 0;
 }
 
+/*signup-form*/
+#signup {
+    background: url(../images/signup-image.webp);
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+    padding: 20px 10% 0 10%;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#signup h2 {
+    color: #ffffff;
+}
+
 /*footer*/
 #social-network {
     text-align: center;
@@ -249,7 +270,10 @@ main {
     /* main content*/
 
     main {
-        margin-top: 79px;
+        flex: 1 0 auto;
+        margin-top: 47px;
+        display: flex;
+        flex-direction: column;
     }
 
     #cover-text {
@@ -277,6 +301,15 @@ main {
     #photos {
         column-count: 3;
     }
+
+    /*signup page*/
+    #signup {
+        background: url(../images/signup-image.webp);
+        background-size: cover;
+        background-position: 75%;
+        flex-grow: 1
+    }
+
 }
 
 /*media query for laptops*/
