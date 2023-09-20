@@ -196,7 +196,7 @@ main {
 
 /*signup-form*/
 #signup {
-    background: url(../images/signup-image.webp);
+    background-image: url(../images/signup-image.webp);
     background-size: cover;
     background-position: 75%;
     flex-grow: 1;
@@ -299,10 +299,7 @@ main {
     /* main content*/
 
     main {
-        flex: 1 0 auto;
-        margin-top: 47px;
-        display: flex;
-        flex-direction: column;
+        margin-top: 79px;
     }
 
     #cover-text {
@@ -340,8 +337,8 @@ main {
     #signup-form {
         position: absolute;
         max-width: 400px;
-        top: 150px;
-        left: 10%;
+        top: 10%;
+        left: 150px;
     }
 
     #text-input:hover {
